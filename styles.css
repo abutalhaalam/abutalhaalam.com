@@ -29,7 +29,8 @@ ls {
 .rightSide {
     right: 0;
     /*background-color: rgb(88, 203, 231);*/
-    margin-right: 300px;
+    margin-right: 50px;
+    padding-right: 150px;
 }
 
 .sidenav {
@@ -39,7 +40,6 @@ ls {
 }
 
 .sidenav a {
-    padding: 2px 2px;
     text-decoration: none;
     font-size: 20px;
     color: #818181;
@@ -53,6 +53,7 @@ ls {
 .sidenav ul {
     list-style-type: none;
     font-weight: bold;
+    ;
 }
 
 .copyrightCredits {
