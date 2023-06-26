@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-* {
-    background-color: #FAFAFA;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #000000;
+    background-color: #FAFAFA;
 }
 
 ls {
@@ -60,4 +57,26 @@ ls {
     position: absolute;
     bottom: 0;
     font-size: 10px;
+    margin-left: 20px;
 }
+
+.linkss a:link {
+    color: rgb(18, 99, 95);
+  }
+.linkss a:visited {
+    color: rgb(18, 99, 95);
+  }
+
+.linkss a:hover {
+    color: rgb(116, 204, 199);
+  }
+
+.emailq a {
+    color: rgb(18, 99, 95);
+}
+.emailq a:hover {
+    color: rgb(116, 204, 199);
+  }
+  .emailqa:visited {
+    color: rgb(18, 99, 95);
+  }
