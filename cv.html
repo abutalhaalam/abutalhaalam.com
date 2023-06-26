@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Links · Abutalha Alam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="abutalhaalam" data-description="Support me w/Coffee :)" data-message="Support me w/Coffee :)" data-color="#40DCA5" data-font="Cookie" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+</head>
+
+<body>
+    <div class="split leftSide">
+        <div class="sidenav">
+            <ul>
+                <li>
+                    <h1>abutalha alam</h1>
+                </li>
+                <li><a href="/">/about me</a></li>
+                <li><a href="/cv.html">/cv</a></li>
+               <!-- <li><a href="/projects.html">/projects</a></li>-->
+               <!-- <li><a href="/blog.html">/blog</a></li>-->
+                <!-- <li><a href="/library.html">/library</a></li>-->
+                <li><a href="/links.html">/links</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="split rightSide">
+        <h1>CV</h1>
+        <button id="toggle">View CV</button>
+        <embed id="viewCV" style="display: none;" src="/cv.pdf" type="application/pdf" width="80%" height="90%"></embed>
+        <a href="/cv.pdf" download> <button>Download CV</button></a>
+    </div>
+    <script>
+        const targetDiv = document.getElementById("viewCV");
+        const btn = document.getElementById("toggle");
+        btn.onclick = function () {
+          if (targetDiv.style.display !== "none") {
+            targetDiv.style.display = "none";
+          } else {
+            targetDiv.style.display = "block";
+          }
+        };
+      </script>
+</body>
+<footer>
+    <div class="copyrightCredits">
+        <h4>Disclaimer: <br>This website is currently under reconstruction. <br>Thank you for your understanding.</h4>
+        <p> © Built and designed by Abutalha Alam. All rights reserved.</p>
+    </div>
+</footer>
+
+</html>
